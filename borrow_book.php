@@ -369,8 +369,6 @@ if(isset($_GET['book_id']))
 
 <div class="sidebar">
 
-  
-
     <h2>
         <a href="dashboard.php">Library Management</a>
     </h2>

@@ -99,47 +99,44 @@ if(isset($_POST['add_book'])){
         </form>
         </div>
 
+    <div class="sidebar">
+     <p class="welcome-message">Welcome, <?php echo $_SESSION['librarian_name']; ?></p>
 
-        <div class="sidebar">
+    <h2> <a href="dashboard.php">📚 Library Management</a></h2>
 
-   
-
-    <h2>
-        <a href="dashboard.php">Library Management</a>
-    </h2>
 
     <button class="drop-menu">
-        Manage Books
+       📖 Manage Books
     </button>
 
     <div class="dropdown-content">
-        <a href="addbook.php">Add Book</a>
-        <a href="viewbooks.php">View Books</a>
-        <a href="edit_book.php">Edit Books</a>
-        <a href="borrow_book.php">Borrow a Book</a>
-        <a href="returnbook.php">Return a Book</a>
-        <a href="author_publisher.php">Add Author & Publisher</a>
+        <a href="addbook.php">➕ Add Book</a>
+        <a href="viewbooks.php">👁️ View Books</a>
+        <a href="edit_book.php">✏️ Edit Books</a>
+        <a href="borrow_book.php">  📤 Borrow a Book</a>
+        <a href="returnbook.php"> 📥 Return a Book</a>
+        <a href="author_publisher.php"> 👨‍💼 Add Author & Publisher </a>
     </div>
 
     <button class="drop-menu">
-        Manage Members
+        👥 Manage Members
     </button>
 
     <div class="dropdown-content">
-        <a href="registration.php">Register</a>
-        <a href="editmember.php">View & Edit Members</a>
+        <a href="registration.php"> 📝 Register</a>
+        <a href="editmember.php"> 👀 View & Edit Members</a>
     </div>
 
     <button class="drop-menu">
-        Fine Management
+        💰 Fine Management
     </button>
 
     <div class="dropdown-content">
-        <a href="viewfines.php">View Fine</a>
-        <a href="update_fine.php">Update Fine</a>
+        <a href="viewfines.php">👁️ View Fine</a>
+        <a href="update_fine.php">🔄 Update Fine</a>
     </div>
 
-    <a class="menu-link" href="index.php">Logout</a>
+    <a class="menu-link" href="index.php">🚪 Logout</a>
 
 </div>
 
