@@ -1,0 +1,54 @@
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: #2c3e50;
+    overflow: auto;
+}
+.sidebar h2{
+    color:white;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0;
+}
+.sidebar a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: left;
+}
+.drop-menu{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: left;
+}
+.drop-menu:hover{
+    background-color: #34495e;
+}
+/* .menu-link{
+    display: block;
+    padding: 12px 55px;
+    text-decoration: none;
+    color: rgb(11, 4, 4);
+    text-align: left;
+} */
+.dropdown-content{
+    display: none;
+}
+.dropdown-content a{
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: rgb(214, 83, 83);
+}
+.dropdown-content a:hover{
+background-color: #34495e;
+}
